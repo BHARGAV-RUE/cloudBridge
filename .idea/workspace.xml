@@ -5,26 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e1e6719-41fa-402e-b524-9672bbaba9a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Config/AWSS3Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Config/AzureBlobConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Config/GoogleConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Config/StorageCapacityInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Entity/CloudProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Entity/CloudStorageCapacity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Entity/CompressionFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Entity/DownloadStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Implementation/Storage/AWSS3StorageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Implementation/Storage/AzureBlobStorageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Implementation/Storage/GoogleDriveStorageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Repository/CloudStorageCapacityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Service/Storage/StorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Service/Storage/StorageServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Util/StorageLimits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/config/AWSS3Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/config/AzureBlobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/config/GoogleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/config/OracleCloudConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/config/StorageCapacityInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/entity/CloudProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/entity/CloudStorageCapacity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/entity/CompressionFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/entity/DownloadStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/implementation/storage/AWSS3StorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/implementation/storage/AzureBlobStorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/implementation/storage/OracleCloudStorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/repository/CloudStorageCapacityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/service/storage/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/service/storage/StorageServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/util/StorageLimits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Entity/DownloadLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Entity/DownloadLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Entity/DownloadToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Entity/DownloadToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Entity/FileMetadata.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Entity/FileMetadata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Entity/DownloadLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/entity/DownloadLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Entity/DownloadToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/entity/DownloadToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Entity/FileMetadata.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/entity/FileMetadata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Repository/DownloadLogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/repository/DownloadLogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Repository/DownloadTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/repository/DownloadTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Repository/FileMetadataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/repository/FileMetadataRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +39,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="22" />
+    <option name="cachedIndexableFilesCount" value="39" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -87,6 +93,7 @@
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
