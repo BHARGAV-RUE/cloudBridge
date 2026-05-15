@@ -9,20 +9,24 @@
       <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/config/AzureBlobConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/config/GoogleConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/config/OracleCloudConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/config/SecurityConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/config/StorageCapacityInitializer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/entity/CloudProvider.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/entity/CloudStorageCapacity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/entity/CompressionFormat.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/entity/DownloadStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/implementation/compression/CompressionServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/implementation/storage/AWSS3StorageServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/implementation/storage/AzureBlobStorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/implementation/storage/GoogleDriveStorageServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/implementation/storage/OracleCloudStorageServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/repository/CloudStorageCapacityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/service/compression/CompressionResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/service/compression/CompressionService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/service/storage/StorageService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/service/storage/StorageServiceFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/util/StorageLimits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/Entity/DownloadLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/bhargav/cloudbridge/entity/DownloadLog.java" afterDir="false" />
@@ -39,7 +43,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="39" />
+    <option name="cachedIndexableFilesCount" value="33" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
