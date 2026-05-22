@@ -1,7 +1,7 @@
 package com.bhargav.cloudbridge.repository;
 
+import com.bhargav.cloudbridge.entity.CloudProvider;
 import com.bhargav.cloudbridge.entity.FileMetadata;
-import com.bhargav.cloudbridge.entity.CompressionFormat;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -26,7 +26,7 @@ public interface FileMetadataRepository
     """)
     List<FileMetadata> findLimitReachedFiles();
 
-    List<FileMetadata> findByCloudProviderAndIsDeletedFalse(String cloudProvider);
+    List<FileMetadata> findByCloudProviderAndIsDeletedFalse(CloudProvider cloudProvider);
 
     List<FileMetadata> findByIsDeletedFalse();
 

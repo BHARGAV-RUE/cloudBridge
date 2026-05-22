@@ -1,5 +1,8 @@
 package com.bhargav.cloudbridge.service.storage;
 
+
+import com.bhargav.cloudbridge.exception.StorageFullException;
+
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -31,7 +34,7 @@ public class StorageServiceFactory {
         log.info("[StorageFactory] Registered Providers: {}", registry.keySet());
     }
 
-    public StorageService getProvider(String providerName){
+    public StorageService getProvider(String  providerName){
         StorageService service = registry.get(providerName);
 
         if(service == null) {
@@ -42,8 +45,18 @@ public class StorageServiceFactory {
         return service;
     }
 
-    public StorageService getPrimaryProvider(){
-        return getProvider(primaryProvider);
+    public StorageService getBestProvider(long requiredBytes) {
+        return registry.values().stream()
+                .filter(s -> {
+                    try {
+                        // check capacity via StorageCapacityService
+                        return true; // placeholder — wire capacity check here
+                    } catch (Exception e) {
+                        return false;
+                    }
+                })
+                .findFirst()
+                .orElseThrow(() -> new StorageFullException(requiredBytes));
     }
 
     public List<String> getAvailableProviders() {

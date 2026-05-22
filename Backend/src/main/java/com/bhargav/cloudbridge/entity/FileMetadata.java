@@ -1,5 +1,6 @@
 package com.bhargav.cloudbridge.entity;
 
+import com.bhargav.cloudbridge.util.EncryptionAlgorithm;
 import jakarta.persistence.*;
 import lombok.*;
 import java.time.LocalDateTime;
@@ -79,6 +80,10 @@ public class FileMetadata {
 
     @Column(name = "deleted_at")
     private LocalDateTime deletedAt;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "encryption_algorithm")
+    private EncryptionAlgorithm encryptionAlgorithm;
 
 
 
