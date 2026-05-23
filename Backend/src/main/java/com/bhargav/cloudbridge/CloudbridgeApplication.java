@@ -9,5 +9,4 @@ public class CloudbridgeApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CloudbridgeApplication.class, args);
 	}
-
 }

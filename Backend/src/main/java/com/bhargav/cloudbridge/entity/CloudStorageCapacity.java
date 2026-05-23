@@ -29,6 +29,14 @@ public class CloudStorageCapacity {
     @Column(name = "last_updated", nullable = false)
     private LocalDateTime lastUpdated;
 
+    @Column(name = "is_enabled", nullable = false)
+    private Boolean isEnabled = true;
+
+    @Column(name = "display_name")
+    private String displayName;
+
+
+
     @PrePersist
     @PreUpdate
     public void onUpdate(){
